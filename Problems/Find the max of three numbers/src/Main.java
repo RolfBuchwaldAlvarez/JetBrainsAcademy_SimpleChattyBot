@@ -3,7 +3,13 @@ import java.util.Scanner;
 public class Main {
 
     public static int getNumberOfMaxParam(int a, int b, int c) {
-        // write a body here
+        if (c > a && c > b) {
+            return 3;
+        } else if (b >= c && b > a) {
+            return 2;
+        } else {
+            return 1;
+        }
     }
 
     public static void main(String[] args) {
