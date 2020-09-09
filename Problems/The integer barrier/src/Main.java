@@ -7,7 +7,7 @@ class Main {
         int sum = 0;
 
         for (int i = 0; i >= 0; i++) {
-            int num = Integer.parseInt(scanner.nextLine());
+            int num = scanner.nextInt();
             if (sum >= 1000) {
                 System.out.println(sum - 1000);
                 break;

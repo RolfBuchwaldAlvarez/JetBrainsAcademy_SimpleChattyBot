@@ -5,11 +5,11 @@ public class Main {
         // write your code here
         Scanner scanner = new Scanner(System.in);
 
-        int heightOfBus = Integer.parseInt(scanner.next());
-        int numOfBridges = Integer.parseInt(scanner.next());
+        int heightOfBus = scanner.nextInt();
+        int numOfBridges = scanner.nextInt();
 
         for (int i = 1; i <= numOfBridges; i++) {
-            int heightOfBridge = Integer.parseInt(scanner.next());
+            int heightOfBridge = scanner.nextInt();
             if (heightOfBridge <= heightOfBus) {
                 System.out.println("Will crash on bridge " + i);
                 break;

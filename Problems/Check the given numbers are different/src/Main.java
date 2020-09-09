@@ -4,9 +4,9 @@ class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // put your code here
-        int a = Integer.parseInt(scanner.next());
-        int b = Integer.parseInt(scanner.next());
-        int c = Integer.parseInt(scanner.next());
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
         
         if (a != b && b != c && a != c) {
             System.out.println(true);

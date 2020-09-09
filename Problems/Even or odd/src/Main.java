@@ -6,7 +6,7 @@ class Main {
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i >= 0; i++) {
-            int num = Integer.parseInt(scanner.nextLine());
+            int num = scanner.nextInt();
             if (num == 0) {
                 break;
             } else {

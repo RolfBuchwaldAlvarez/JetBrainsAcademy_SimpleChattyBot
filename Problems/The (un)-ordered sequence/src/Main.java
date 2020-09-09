@@ -5,14 +5,14 @@ class Main {
         // put your code here
         Scanner scanner = new Scanner(System.in);
 
-        int newNum = Integer.parseInt(scanner.next());
+        int newNum = scanner.nextInt();
         int oldNum;
         boolean ascending = true;
         boolean descending = true;
 
         while (true) {
             oldNum = newNum;
-            newNum = Integer.parseInt(scanner.next());
+            newNum = scanner.nextInt();
 
             if (newNum == 0) {
                 break;
